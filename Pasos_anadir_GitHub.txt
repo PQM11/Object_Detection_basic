@@ -1,0 +1,17 @@
+En la carpeta del proyecto en local:
+	botón derecho: "GIT BASH HERE"
+
+En el terminal que se abre:
+	"git init"
+	"git commit"
+	"touch .gitignore"
+Entrar en el archivo .gitignore y  añadir todo aquello que debe ignorarse
+
+Volvemos al terminar de GIT BASH:
+	"git add -A"
+	"git commit -m "my first commit""
+
+Ahora seguimos los pasos que proporciona GitHub para añadir un repo local:
+	"git remote add origin <REMOTE_URL>" Ejemplo: <REMOTE_URL> = git@github.com:PQM11/Object_Detection_basic.git
+	"git branch -M main" Ejemplo: en vez de rama main puede denominarse de cualquier otra manera la rama que estamos creando
+	"git push -u origin main"
