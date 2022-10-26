@@ -15,3 +15,8 @@ Ahora seguimos los pasos que proporciona GitHub para añadir un repo local:
 	"git remote add origin <REMOTE_URL>" Ejemplo: <REMOTE_URL> = git@github.com:PQM11/Object_Detection_basic.git
 	"git branch -M main" Ejemplo: en vez de rama main puede denominarse de cualquier otra manera la rama que estamos creando
 	"git push -u origin main"
+
+A partir de ahora si se desea seguir utilizando para los commit y push Git Bash:
+	"git add -A"
+	"git commit -m "my SECOND commit""
+	"git push -u origin main"
